@@ -1,0 +1,52 @@
+/* Estilos para colores */
+.colores {
+    color: orangered;
+}
+
+.color-hexadecimal {
+    color: #BCE784
+}
+
+.color-rgb {
+    color: rgb(100, 0, 200)
+}
+
+.color-rgba {
+    color: rgba(10, 10, 10, 0.2)
+}
+
+/* Fondos */
+.fondo {
+    /* background-color: cornflowerblue; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjEKHXstoKfIM6CzfZfZg-gOfKnYrV4mU_4s6numznrwTvNNf2dgwQCXomVIXkl0uTvO8&usqp=CAU");
+    background-position: right bottom;
+}
+
+.fondo-interno {
+    /* background-color: cornflowerblue; */
+    background-image: url("Imagenes/background-image.jpg");
+    background-position: left bottom;
+}
+
+/* Tamaños "FALLO QUE NO ENCUENTRO" */
+.ancho {
+    background-color: #BCE784
+    width: 100px;
+}
+
+.alto {
+    background-color: aquamarine;
+    height: 200px;
+    width: 300px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /* border-top: none; */
+    padding: 10px 20px;
+    /* 10px 20px 30px 40px; va por agujas del reloj */
+    margin: 10px 20px;
+    /* 10px 20px 30px 40px */
+}
